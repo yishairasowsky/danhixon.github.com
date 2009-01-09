@@ -58,12 +58,13 @@ Loading development environment (Rails 2.0.2)
 </pre>
 
 What is now staring you in the face is called the rails console which is a special version of the IRB (Interactive Ruby Prompt.)  This prompt will accept any valid ruby code.  Go ahead and write a hello world command:
+<notextile>
 <pre class="terminal">Loading development environment (Rails 2.0.2)
 >> puts "hello world"
 hello world
 => nil
 >> []</pre>
-
+</notextile>
 Try typing these commands just for fun:
 
 <pre class="terminal">
