@@ -32,9 +32,7 @@ end
 </pre>
 
 Now rake the migration:
-<pre class="terminal">
-$ rake db:migrate
-</pre>
+<pre class="terminal">$ rake db:migrate</pre>
 
 Now that we have a foreign key in the table we need to tell the CookBook model that it has many Recipes and the Recipe model that it belongs to a CookBook.  So we open the model files in the app/model directory and add the lines shown below.
 
