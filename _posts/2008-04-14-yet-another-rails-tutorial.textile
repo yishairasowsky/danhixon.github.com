@@ -58,4 +58,4 @@ $ rake db:migrate
 
 <p>Point Browser to <a href="http://localhost:3000/recipes">http://localhost:3000/recipes</a> and create a new recipe.</p>
 
-<p>Great!  Now we have a functional Cookbook and Recipe model.  But now we realize that we need to make recipes belong to cookbooks.  We'll do that in <a href="/2008/4/15/rails-lesson-2-the-console">Rails Lesson #2.</a>
+<p>Great!  Now we have a functional Cookbook and Recipe model.  But now we realize that we need to make recipes belong to cookbooks.  We'll do that in <a href="/2008/04/15/rails-lesson-2-the-console.html">Rails Lesson #2.</a>

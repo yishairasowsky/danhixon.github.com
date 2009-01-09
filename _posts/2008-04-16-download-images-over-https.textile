@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to download a list of images over https in Ruby
+title: Download a list of images over https in Ruby
 ---
 
 h2. {{ page.title }}

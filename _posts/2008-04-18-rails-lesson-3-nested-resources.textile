@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Rails Lesson #3: Nested Resources
+title: "Rails Lesson #3: Nested Resources"
 ---
 
 h2. {{ page.title }}
 
 p(publish_date). 15 Apr 2008
 
-<p>In <a href="/2008/4/15/rails-lesson-2-the-console.html">Lesson #2</a> we established a relationship between our Recipe model and our Cookbook model. We used the rails console to wire up the recipe record so that it belonged to the cookbook record.  In this lesson we'll make changes to our UI that will allow us to add recipes to cookbooks.  First let's learn a little about controllers.</p>
+<p>In <a href="/2008/04/15/rails-lesson-2-the-console.html">Lesson #2</a> we established a relationship between our Recipe model and our Cookbook model. We used the rails console to wire up the recipe record so that it belonged to the cookbook record.  In this lesson we'll make changes to our UI that will allow us to add recipes to cookbooks.  First let's learn a little about controllers.</p>
 
 <h4>Controller Actions</h4>
 <p>Rails uses the URL to direct traffic.  All requests are directed to an action of a controller.  It's a good idea to follow RESTful conventions and give your controller a maximum of these 7 actions:
