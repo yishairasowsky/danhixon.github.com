@@ -85,15 +85,14 @@ The IRB is cool but what is special about the rails console is that it loads all
 => [ an array containing any cookbooks you've created ]
 >> Recipe.find(:all)
 => [ an array containing any recipes you've created ]
-
 </pre>
 
 Assuming you only have one cookbook and one recipe we can use the following commands to retrieve the recipe from the database and store it in the variable r, then fetch the cookbook into variable c, and finally tell r that it belongs to c:
 <pre class="terminal">
->> r = Recipe.find(1)
->> c = CookBook.find(1)
->> r.cookbook = c
->> r.save
+ >> r = Recipe.find(1)
+ >> c = CookBook.find(1)
+ >> r.cookbook = c
+ >> r.save
 </pre>
 
 The console is a very cool tool for quickly manually testing things or nudging data this way or that.
