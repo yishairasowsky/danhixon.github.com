@@ -5,7 +5,7 @@ title: Ruby eats SOAP for Breakfast
 
 h2. {{ page.title }}
 
-p(publish_date). 15 Apr 2008
+p(publish_date). 16 Apr 2008
 
 <p>Google <i>is</i> my friend. I needed to access some SOAP web services from Ruby.  Our company allows customers to pay their bills with cash at various cash payment centers in throughout the state.  We have an ASP.Net web service that accepts a zip code and the maximum miles a person is willing to travel and returns a list of locations within that radius.</p>
 
