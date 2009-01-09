@@ -47,8 +47,8 @@ map.resources :cookbooks, :has_many => :recipes
 </pre>
 
 <p>Now we are ready to make changes to the app/views/cookbooks/show.html.erb file.  The code above tells rails that "recipes" are a nested resource for "cookbooks" - the urls will look like this: /cookbooks/{id}/recipes/{id}.  One nice thing is that we don't need to hand code our urls - rails can do it for us.  Change your show.html.erb file so it looks like the code below.</p>  
+<notextile>
 <pre name="code" class="xml">
-
 &lt;h2&gt;Cookbook: &lt;%=h @cookbook.title %&gt;&lt;/h2&gt;
 &lt;p&gt;
   &lt;b&gt;Author:&lt;/b&gt;
@@ -68,9 +68,7 @@ map.resources :cookbooks, :has_many => :recipes
 
 &lt;%= link_to &#x27;Edit&#x27;, edit_cookbook_path(@cookbook) %&gt; |
 &lt;%= link_to &#x27;Back&#x27;, cookbooks_path %&gt;
-
-
-</pre>
+</pre></notextile>
 <p>We've changed the look slightly and added a list of recipes.  We are linking to the recipes using the "cookbook_recipe_path" method to create a new recipe using the "new_cookbook_recipe_path" method - these are provided to us because of the change we made to the routes.rb file.  When you click on the recipe name you'll be taken to this location: /cookbooks/1/recipes/1 and the "Add New" link takes you here: /cookbook/1/recipes/new.</p>
 <p>
 Now that the recipes are showing up at the correct URL we need to make a couple changes so that the new recipes get saved with the correct cookbook ID.  First we need to make two changes to the recipes controller.  At the top under the class definition add "before_filter :load_parent" and add the private "load_parent" method at the bottom:
