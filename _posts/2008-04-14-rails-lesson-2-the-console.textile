@@ -6,8 +6,8 @@ title: Rails Lesson #2: The Console
 h2. {{ page.title }}
 
 p(publish_date). 14 Apr 2008
-	
-		  <p>In <a href="/2008/4/14/yet-another-rails-tutorial">Lesson #1</a> We had a cookbook and a recipe but they weren't related to each other.  First we'll add a key to the recipes table then we'll use the console to relate the entities.</p>
+<notextile>
+<p>In <a href="/2008/4/14/yet-another-rails-tutorial">Lesson #1</a> We had a cookbook and a recipe but they weren't related to each other.  First we'll add a key to the recipes table then we'll use the console to relate the entities.</p>
 
 <p>When creating new objects we use the script/generate scaffold command.  Here we only want to change the existing recipes table so we generate a migration:</p>
 <pre class="terminal">
@@ -59,20 +59,18 @@ Loading development environment (Rails 2.0.2)
 >> []
 </pre>
 
-What is now staring you in the face is called the rails console which is a special version of the IRB (Interactive Ruby Prompt.)  This prompt will accept any valid ruby code.  Go ahead and write a hello world command:<notextile>
+What is now staring you in the face is called the rails console which is a special version of the IRB (Interactive Ruby Prompt.)  This prompt will accept any valid ruby code.  Go ahead and write a hello world command:
 <pre class="terminal">Loading development environment (Rails 2.0.2)
 >> puts "hello world"
 hello world
 => nil
 >> []</pre>
-</notextile>
+
 Try typing these commands just for fun:
 
 <pre class="terminal">
 >> 50.times { |n| puts "ruby is #{n} times better!" }
-
 >> 6+49
-
 >> 5*5
 </pre>
 
@@ -85,10 +83,11 @@ The IRB is cool but what is special about the rails console is that it loads all
 => [ an array containing any recipes you've created ]
 </pre>
 
-Assuming you only have one cookbook and one recipe we can use the following commands to retrieve the recipe from the database and store it in the variable r, then fetch the cookbook into variable c, and finally tell r that it belongs to c:<notextile>
+Assuming you only have one cookbook and one recipe we can use the following commands to retrieve the recipe from the database and store it in the variable r, then fetch the cookbook into variable c, and finally tell r that it belongs to c:
 <pre class="terminal">>> r = Recipe.find(1)
 >> c = CookBook.find(1)
 >> r.cookbook = c
->> r.save</pre></notextile>
+>> r.save</pre>
 
 The console is a very cool tool for quickly manually testing things or nudging data this way or that.
+</notextile>
