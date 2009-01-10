@@ -6,6 +6,7 @@ title: YART
 h2. {{ page.title }}
 
 p(publish_date). 15 Apr 2008
+
 <p>Yet another rails tutorial.  There are tons of these but I felt like making my own.  My rails version at time of writing is 2.0.2.  In this tutorial series we'll be creating a basic cookbook website.  The objective is to give the reader an introduction to software development in Ruby on Rails.
 
 For windows be sure to change all slashes / to backslashes \.
