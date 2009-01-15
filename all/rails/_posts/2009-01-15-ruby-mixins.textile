@@ -5,11 +5,12 @@ title: "Ruby Mixins"
 
 h2. {{ page.title }}
 
-p(publish_date). 15 Jan 2009
+p(publish_date). 15 Jan 2009x
 
 Q. What happens when you include two modules that define the same method in one class?
 
 A. The method in the module added last is called!
+<notextile>
 <pre name="code" class="ruby">
 module Tiger
   def talk
@@ -38,8 +39,11 @@ puts "a tigon says #{tigon.talk}"
 liger = Liger.new
 puts "a liger says #{liger.talk}"
 </pre>
+</notextile>
+<notextile>
 <pre class="terminal">
 $ ruby cats.rb
 a tigon says roar!
 a liger says prrrrr!
 </pre>
+</notextile>
