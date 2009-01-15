@@ -11,8 +11,7 @@ Q. What happens when you include two modules that define the same method in one 
 
 A. The method in the module added last is called!
 
-<pre name="code" class="ruby">
-<notextile>
+<notextile><pre name="code" class="ruby">
 module Tiger
   def talk
     "prrrrr!"
@@ -39,8 +38,7 @@ puts "a tigon says #{tigon.talk}"
 
 liger = Liger.new
 puts "a liger says #{liger.talk}"
-</notextile>
-</pre>
+</pre></notextile>
 
 <notextile>
 <pre class="terminal">
