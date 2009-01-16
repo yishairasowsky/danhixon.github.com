@@ -14,4 +14,4 @@ p. How did I plan to spend my evening? in c# solving business problems.
 
 p. How did I spend my evening? pulling out my hair trying to solve code problems.
 
-2AM with nothing but half finished methods to show for it.
+2AM with nothing but half finished methods to show for it.  How much more will I take before porting spokt to Rails?
