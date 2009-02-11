@@ -16,11 +16,11 @@ For windows be sure to change all slashes / to backslashes \.
 </p>
 
 <pre class="terminal">
-$ rails cookbook<br />
- ...<br />
- ... bunch of files generated ...<br />
- ...<br />
-$  cd cookbook<br />
+$ rails cookbook
+ ...
+ ... bunch of files generated ...
+ ...
+$  cd cookbook
 
 </pre>
 
