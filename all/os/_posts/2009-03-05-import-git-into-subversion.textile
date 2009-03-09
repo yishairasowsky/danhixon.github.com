@@ -17,7 +17,7 @@ p. Start by creating the folder in subversion into which you wish to import.  In
 	~/Sites/clone_slices $ git svn clone https://svn/slices/trunk .
 	~/Sites/clone_slices $ git pull ../slices
 	~/Sites/clone_slices $ git svn dcommit
-# rename the folder if you want:v
+<notextile># rename the folder if you want:</notextile>
 	~/Sites/clone_slices $ cd ..
 	~/Sites/clone_slices $ rm -rf slices
 	~/Sites/clone_slices $ mv clone_slices slices
