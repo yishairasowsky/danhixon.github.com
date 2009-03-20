@@ -11,9 +11,8 @@ p. This is probably supremely easy to do but all my searches on google yield res
 
 p. Start by creating the folder in subversion into which you wish to import.  In the directory with the git repository do this:
 <pre class="terminal">~/Sites/slices(master) $ cd ..
-~/Sites $ mkdir clone_slices
+~/Sites $ git svn clone https://svn/slices/trunk clone_slices
 ~/Sites $ cd clone_slices
-~/Sites/clone_slices $ git svn clone https://svn/slices/trunk .
 ~/Sites/clone_slices $ git pull ../slices
 ~/Sites/clone_slices $ git svn dcommit
 <notextile># rename the folder if you want:</notextile>
