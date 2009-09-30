@@ -11,7 +11,7 @@ p. I've been using shoulda for one month and I am still loving it.  Today I crea
 
 <notextile><pre name="code" class="ruby">
 def self.should_display_error_message()
-  should "do something" do
+  should "do display error message" do
     assert_tag :tag=>"div", 
 		:attributes => {
 						:class => "errorExplanation", 
@@ -33,5 +33,4 @@ end
   should_render_with_layout 'application'
   should_render_template :new
   should_display_error_message
-
 end</pre></notextile>	
