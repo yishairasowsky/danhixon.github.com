@@ -5,7 +5,7 @@ title: "Mount EBS Volume"
 
 h2. {{ page.title }}
 
-p(publish_date). 29 Sep 2009
+p(publish_date). 15 Oct 2009
 
 p. I use RightScale to manage my EC2 environment. I recently was unable to create a bundle of one of my servers and discovered the problem was I was running out of disk space.  I was using 2.7GB of 10GB but the bundle image would use up the rest of the disk and fail.  How can you get more space? Elastic Block Storage (ESB).
 
