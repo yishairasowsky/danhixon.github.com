@@ -16,8 +16,7 @@ p. I created this issue twice this week doing the same thing so perhaps this pos
 p. The first time I had just installed a gem.  We'll pretend the gem was called Foo. I wanted to try and couldn't seem to use it.  The strange thing was that I could use the gem in irb but not in this script file. Here's my script, lets see if you see the problem right away:
 
 contents of foo.rb:
-<pre name="code" class="ruby"><notextile>
-	require 'rubygems'
+<pre name="code" class="ruby"><notextile>	require 'rubygems'
 	require 'foo'
 	
 	job = Foo::Job.new
