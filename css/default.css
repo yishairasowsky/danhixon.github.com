@@ -28,14 +28,21 @@ p {
 margin:0 0 18px 0px;
 }
 
-ul,ol,dl {4
-font-size:0.9em;
-margin:2px 0 16px 15px;
+ul,ol,dl {
+font-size:1em;
+margin:2px 0 16px 0px;
 }
 
 ul ul,ol ol {
-margin:4px 0 4px 35px;
+margin:4px 0 4px 10px;
 }
+
+.posts { padding:0;}
+
+li { padding:0 4px; color:#ccc; list-style: none; }
+
+li span { float:right; font-family:monofur, monaco, courier; color:#888; }
+li a { font-weight:200;}
 
 blockquote {
 border:1px dotted #e5e5e5;
@@ -283,7 +290,7 @@ clear:both;
 }
 
 .fade {
-color:#e5e5e5;
+color:#c5c5c5;
 }
 
 .gray {
