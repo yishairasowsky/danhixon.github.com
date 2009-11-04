@@ -15,7 +15,7 @@ p. I followed these steps to use vmware to "convert hdd into something usable by
 
 h3. Step 2: Fail
 
-p. I went to boot and it didn't work. Hung loading drivers - boot to safe mode hun after agp440.sys, disable agp440.sys and it hangs on mup.sys.
+p. I went to boot and it didn't work. Hung loading drivers - boot to safe mode hung after agp440.sys, disable agp440.sys and it hangs on mup.sys.
 
 h3. Step 3: Disable Everything & Enable IO APIC
 
