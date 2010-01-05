@@ -11,7 +11,7 @@ p(publish_date). 05 Jan 2010
 bq. Webhooks: so simple you'll think they're stupid.
 <span class="attributed">-- Jeff Lindsay</span>
 
-p. A couple weeks ago we launched blog.spokt.com (wordpress) and we wanted to have links to recent blog posts in the footer at spokt.com (ruby on rails):
+p. A couple weeks ago we launched blog.spokt.com and we wanted to have links to recent blog posts in the footer at spokt.com (hosted on different servers):
 
 !/images/posts-in-footer.png(recent blog posts listed in spokt.com footer)!
 
