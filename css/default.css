@@ -44,6 +44,8 @@ li { padding:0 4px; color:#ccc; list-style: none; }
 ul.posts li span { float:right; font-family:monofur, monaco, courier; color:#888; }
 ul.posts li a { font-weight:200;}
 
+div#post ul li { list-style: circle; }
+
 blockquote {
 border:1px dotted #e5e5e5;
 font-size:1.0em;
