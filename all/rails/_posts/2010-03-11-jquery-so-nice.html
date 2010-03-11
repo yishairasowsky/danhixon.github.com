@@ -23,7 +23,7 @@ String.prototype.trim = function() { return this.replace(/^\s+|\s+$/g, ''); };
 
 function initHintTextboxes() {
   var inputs = document.getElementsByTagName('input');
-  for (i=0; i<inputs.length; i++) {
+  for (i=0; i&lt;inputs.length; i++) {
     var input = inputs[i];
     if (input.type!="text")
       continue;
