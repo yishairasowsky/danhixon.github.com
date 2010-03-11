@@ -66,10 +66,12 @@ $(document).ready(function(){
 			$(this).attr("hintText",$(this).val());
 		})
 		.focus(function(){
-			$(this).val('');
+			if($(this).val()==$(this).attr("hintText"))
+				$(this).val('');
 		})
 		.blur(function(){
-			$(this).val($(this).attr("hintText"));
+		  if($(this).val()=="")
+			  $(this).val($(this).attr("hintText"));
 		});
 
 });
