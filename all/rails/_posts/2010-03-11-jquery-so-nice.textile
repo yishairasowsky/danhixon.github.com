@@ -53,13 +53,10 @@ p. Before:
     }
   }
 
-  window.onload = initHintTextboxes;
-
-</pre>
+  window.onload = initHintTextboxes;</pre>
 
 p. After:
-<pre name="code" class="javascript">
-  $(document).ready(function(){
+<pre name="code" class="javascript">$(document).ready(function(){
     
   	$('.hinter')
   		.each(function(){
@@ -72,6 +69,4 @@ p. After:
   			$(this).val($(this).attr("hintText"));
   		});
 
-  });
-
-</pre>
+  });</pre>
