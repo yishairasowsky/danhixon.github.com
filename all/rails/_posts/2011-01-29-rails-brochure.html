@@ -21,7 +21,6 @@ file path                          accessible at     named route
 views/home/about.html.erb          /about            about_url
 views/home/faq.html.haml           /faq              faq_url
 views/home/about/company.html.erb  /about/company    about_company_url
-  
 </pre>
 <p>
   Most of the designers I have worked with really appreciate the power and convenience this provides. They are used to creating HTML or PHP files and having the URLs just work.  This lets them do this with .erb files.  No futzing with routes, controllers etc.
@@ -30,8 +29,8 @@ views/home/about/company.html.erb  /about/company    about_company_url
   On an unrelated note I've been building a lot of sinatra apps lately. To get the functionality of the rails-brochure gem in sinatra all you need is:
 </p>
 <pre>
-  # put this at the bottom of your app to make it lowest-priority catch-all route
-  get '/*' do
-    erb params["splat"].to_s.to_sym
-  end
+# put this at the bottom of your app to make it lowest-priority catch-all route
+get '/*' do
+  erb params["splat"].to_s.to_sym
+end
 </pre>
