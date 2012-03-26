@@ -15,7 +15,7 @@ p. A couple weeks ago we launched blog.spokt.com and we wanted to have links to 
 
 !/images/posts-in-footer.png(recent blog posts listed in spokt.com footer)!
 
-p. To accomplish this I created a url at spokt which when accessed would download the blog's rss feed, parse it, and store it for later listing.  I then used my neearly-zero wordpress & php experience to create plugin that just curl'd the url.  Here's the plugin code:
+p. To accomplish this I created a url at spokt which when accessed would download the blog's rss feed, parse it, and store it for later listing.  I then used my nearly-zero wordpress & php experience to create plugin that just curl'd the url.  Here's the plugin code:
 
 <pre name="code" class="php">
 	<?php
