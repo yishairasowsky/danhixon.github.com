@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Webhooks and Hookpress"
+title: Webhooks and Hookpress
+published: true
 ---
 
 h2. {{ page.title }}
@@ -42,5 +43,4 @@ p. Once installed Click "Settings" in the wp admin then the "Webhooks" link. Tha
 
 p. See Also: "Useful hookpress screencast by Michael 芳貴 Erlewine":http://mitcho.com/code/hookpress/
 
-!/images/hookpress-screenshot.png(easy to use admin interface)!
-
+!{width=32px}/images/hookpress-screenshot.png(easy to use admin interface)!
