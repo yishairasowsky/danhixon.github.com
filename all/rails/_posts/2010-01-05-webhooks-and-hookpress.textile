@@ -43,4 +43,4 @@ p. Once installed Click "Settings" in the wp admin then the "Webhooks" link. Tha
 
 p. See Also: "Useful hookpress screencast by Michael 芳貴 Erlewine":http://mitcho.com/code/hookpress/
 
-!{width=32px}/images/hookpress-screenshot.png(easy to use admin interface)!
+!/images/hookpress-screenshot.png(easy to use admin interface)!
