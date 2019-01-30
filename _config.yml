@@ -8,3 +8,5 @@ plugins:     ./_plugins
 future:      true
 lsi:         false
 pygments:    false
+
+theme: jekyll-theme-merlot
